@@ -26,7 +26,7 @@ import java.util.Calendar;
 
 import medication.takemedichine.medicationalert.R;
 import medication.smartpatient.mytherapy.utils.AppUtils;
-import medication.takemedichine.medicationalert.ReminderEditActivity;
+import medication.takemedichine.medicationalert.activity.ReminderEditActivity;
 
 
 public class AlarmReceiver extends WakefulBroadcastReceiver {

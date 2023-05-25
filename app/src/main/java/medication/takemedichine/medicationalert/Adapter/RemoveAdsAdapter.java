@@ -1,4 +1,4 @@
-package medication.takemedichine.medicationalert.BillingPart;
+package medication.takemedichine.medicationalert.Adapter;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -37,7 +37,7 @@ public class RemoveAdsAdapter extends RecyclerView.Adapter<RemoveAdsAdapter.Remo
     @NonNull
     @Override
     public RemoveADS onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.carousel_items_will_dev, null, false);
+        View view = LayoutInflater.from(context).inflate(R.layout.billing_view_items, null, false);
         return new RemoveADS(view);
 
     }
@@ -46,16 +46,16 @@ public class RemoveAdsAdapter extends RecyclerView.Adapter<RemoveAdsAdapter.Remo
     public void onBindViewHolder(@NonNull RemoveADS holder, @SuppressLint("RecyclerView") int position) {
 
         if (position == 0) {
-            holder.price.setText("$3.99");
+            holder.price.setText("$0.99");
             holder.title.setText("1 Month");
         }
         if (position == 1) {
-            holder.price.setText("$6.49");
+            holder.price.setText("$2.49");
             holder.title.setText("3 Month");
         }
         if (position == 2) {
-            holder.price.setText("$0.99");
-            holder.title.setText("7 Days");
+            holder.price.setText("$0.45");
+            holder.title.setText("15 Days");
         }
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override

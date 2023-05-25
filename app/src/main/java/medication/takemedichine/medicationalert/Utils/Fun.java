@@ -46,7 +46,7 @@ import medication.takemedichine.medicationalert.R;
 public class Fun {
 
     public static Context context;
-    public static String appurl ="";
+    public static String appurl = "";
 
     private static int count = 0;
     private static int countfc = 0;
@@ -76,7 +76,7 @@ public class Fun {
         adContainerView.addView(adView);
         if (removeAds) {
         } else {
-            loadBanner(activity);
+           // loadBanner(activity);
         }
 
     }
@@ -113,7 +113,6 @@ public class Fun {
         // Step 3 - Get adaptive ad size and return for setting on the ad view.
         return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(activity, adWidth);
     }
-
 
 
     private static BroadcastReceiver attachmentDownloadCompleteReceive;
@@ -172,7 +171,7 @@ public class Fun {
 
         } else {
 
-            addShowAdmob();
+          //  addShowAdmob();
 
 
         }

@@ -40,7 +40,6 @@
             android:minLines="4"
             android:scrollHorizontally="false"
             android:textColor="@android:color/white"
-            android:textColorHint="@color/primary_text_disabled_material_dark"
             android:textSize="25dp" />
 
     </LinearLayout>

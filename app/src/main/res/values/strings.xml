@@ -6,10 +6,11 @@
     <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
     <string name="interstitial_key">ca-app-pub-3940256099942544/1033173712</string>
 
+
     <!--    pill_reminder-->
     <string name="title_activity_add_reminder">Add Medication</string>
     <string name="title_activity_edit_reminder">Edit Medication</string>
-    <string name="add_Medicion">Medication Name</string>
+    <string name="add_Medicion">Enter Medication Name</string>
     <string name="details">Details</string>
     <string name="date">Date</string>
     <string name="time">Time</string>

@@ -1,4 +1,4 @@
-package medication.takemedichine.medicationalert;
+package medication.takemedichine.medicationalert.activity;
 
 import static medication.takemedichine.medicationalert.Utils.Fun.showBanner;
 
@@ -31,6 +31,7 @@ import java.util.List;
 import medication.takemedichine.medicationalert.Adapter.MedListAdapter;
 import medication.takemedichine.medicationalert.Interface.ItemClickListener;
 import medication.takemedichine.medicationalert.Model.ReminderItem;
+import medication.takemedichine.medicationalert.R;
 import medication.takemedichine.medicationalert.Utils.AlarmReceiver;
 import medication.takemedichine.medicationalert.Utils.DateTimeComparator;
 import medication.takemedichine.medicationalert.Utils.DateTimeSorter;
@@ -59,7 +60,6 @@ public class MainActivity extends AppCompatActivity implements ItemClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
         setContentView(R.layout.activity_main);
 

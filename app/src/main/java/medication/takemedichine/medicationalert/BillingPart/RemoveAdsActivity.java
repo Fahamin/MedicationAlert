@@ -39,8 +39,9 @@ import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;
 import java.util.List;
 
+import medication.takemedichine.medicationalert.Adapter.RemoveAdsAdapter;
 import medication.takemedichine.medicationalert.Interface.ItemClickListener;
-import medication.takemedichine.medicationalert.MainActivity;
+import medication.takemedichine.medicationalert.activity.MainActivity;
 import medication.takemedichine.medicationalert.R;
 import medication.takemedichine.medicationalert.Utils.Fun;
 import medication.takemedichine.medicationalert.Utils.Prefs;
