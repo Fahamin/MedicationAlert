@@ -46,7 +46,7 @@ import medication.takemedichine.medicationalert.R;
 public class Fun {
 
     public static Context context;
-    public static String appurl = "";
+    public static String appurl = "https://play.google.com/store/apps/details?id=medication.takemedichine.medicationalert";
 
     private static int count = 0;
     private static int countfc = 0;
@@ -76,7 +76,7 @@ public class Fun {
         adContainerView.addView(adView);
         if (removeAds) {
         } else {
-           // loadBanner(activity);
+            loadBanner(activity);
         }
 
     }
@@ -170,8 +170,10 @@ public class Fun {
         if (removeAds) {
 
         } else {
+            if (count % divider == 0) {
+                addShowAdmob();
 
-          //  addShowAdmob();
+            }
 
 
         }

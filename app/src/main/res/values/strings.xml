@@ -2,10 +2,17 @@
     <string name="app_name">Medication Alert</string>
 
 
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+   <!-- <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
     <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
     <string name="interstitial_key">ca-app-pub-3940256099942544/1033173712</string>
 
+-->
+
+    <string name="interstitial_key">ca-app-pub-2234110845456855/9047739793</string>
+    <string name="admob_app_id">ca-app-pub-2234110845456855~9669760168</string>
+    <string name="banner_ad">ca-app-pub-2234110845456855/9573557248</string>
+    <string name="admob_native_id">ca-app-pub-2234110845456855/6354375260</string>
+    <string name="admob_reward_id">ca-app-pub-2234110845456855/6331120696</string>
 
     <!--    pill_reminder-->
     <string name="title_activity_add_reminder">Add Medication</string>
